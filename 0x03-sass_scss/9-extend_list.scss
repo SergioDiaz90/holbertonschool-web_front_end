@@ -8,11 +8,11 @@ $warning: #FF0000;
 }
 
 .success {
+	@extend .info;
 	color: $success;
-	@extend .info
 }
 
 .warning {
+	@extend .info;
 	color: $warning;
-	@extend .info
 }
