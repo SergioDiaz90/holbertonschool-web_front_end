@@ -7,6 +7,8 @@ $warning: #FF0000;
 	font-size: $font-size-info;
 }
 
+/* @extend is like if it inheriths the properties that are in .info (in this case) */
+/* It helps to optimize and helps to dont write double code*/
 .success {
 	@extend .info;
 	color: $success;
