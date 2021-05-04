@@ -1,20 +1,17 @@
 /*styles*/
-$font-size-info: 12px;
-$success: #00FF00;
-$warning: #FF0000;
 
 .info {
-	font-size: $font-size-info;
+	font-size: 12px;
 }
 
 /* @extend is like if it inheriths the properties that are in .info (in this case) */
 /* It helps to optimize and helps to dont write double code*/
 .success {
 	@extend .info;
-	color: $success;
+	color: #00FF00;
 }
 
 .warning {
 	@extend .info;
-	color: $warning;
+	color: #FF0000;
 }
