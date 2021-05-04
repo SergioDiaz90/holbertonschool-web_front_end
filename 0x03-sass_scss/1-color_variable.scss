@@ -1,6 +1,10 @@
 /*styles*/
 $text-color: #3D3D3D;
 
-html, p {
+html {
+	color: $text-color;
+}
+
+p {
 	color: $text-color;
 }
