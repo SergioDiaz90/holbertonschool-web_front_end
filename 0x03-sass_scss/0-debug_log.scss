@@ -1,0 +1,5 @@
+/* Print Hello World */
+$str: 'Hello world';
+body {
+    @debug $str;
+}
