@@ -1,0 +1,14 @@
+/*styles*/
+$text-color: #3D3D3D;
+$text-color-red: #FF0000;
+
+
+body {
+	color: $text-color;
+
+	&:first-child {
+		.red {
+			color: $text-color-red;
+		}
+	}
+}
