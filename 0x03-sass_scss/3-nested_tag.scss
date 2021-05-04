@@ -1,9 +1,11 @@
 /*styles*/
 $margin-text: 10px;
+$margin-general: 0px;
+$padding-general: 0px;
 
 body {
-	margin: 0;
-	padding: 0;
+	margin: $margin-general;
+	padding: $padding-general;
 	p {
 		margin: $margin-text;
 	}
