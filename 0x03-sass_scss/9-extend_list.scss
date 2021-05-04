@@ -1,0 +1,18 @@
+/*styles*/
+$font-size-info: 12px;
+$success: #00FF00;
+$warning: #FF0000;
+
+.info {
+	font-size: $font-size-info;
+}
+
+.success {
+	color: $success;
+	@extend .info
+}
+
+.warning {
+	color: $warning;
+	@extend .info
+}
